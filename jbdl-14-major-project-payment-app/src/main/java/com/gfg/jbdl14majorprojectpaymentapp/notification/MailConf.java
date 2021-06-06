@@ -16,7 +16,7 @@ public class MailConf {
         javaMailSender.setHost("smtp.gmail.com");
         javaMailSender.setPort(587);
         javaMailSender.setUsername("geekstutorialemail2020@gmail.com");
-        javaMailSender.setPassword("kweqmqgvcpnwuczn");
+        javaMailSender.setPassword("");
         Properties properties = new Properties();
         properties.put("mail.smtp.starttls.enable", "true");
         properties.put("mail.debug", "true");
