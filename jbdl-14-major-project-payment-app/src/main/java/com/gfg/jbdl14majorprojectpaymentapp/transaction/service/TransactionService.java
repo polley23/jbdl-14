@@ -8,4 +8,6 @@ public interface TransactionService {
     public TransactionResponse create(TransactionRequest transactionRequest);
     public TransactionResponse get(String txId) throws NotFoundException;
     public void rollback(String rollbackRequest);
+    public void update(String updateRequest);
+
 }
